@@ -1,0 +1,351 @@
+.nav-item .nav-link{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    font-family:"Rubik" ;
+}
+body{
+    background-color: rgb(202, 255, 255);
+}
+nav{
+    background: rgb(0, 0, 0);
+}
+.navbar .nav-link {
+   
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    color: rgb(187, 187, 187);
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+} 
+.navbar-brand{
+    color: white;
+    font-size:34px ;
+  }
+  .navbar-brand:hover{
+    color: rgb(0, 255, 98);
+    }
+    .nav-item .nav-link:hover{
+        color: rgb(0, 255, 98);
+    }
+
+    .center{
+        align-items: center !important;
+        display: flex;
+        flex-wrap: wrap;
+margin-top: calc(var(--bs-gutter-y) * -1);
+margin-right: calc(var(--bs-gutter-x) * -.5);
+margin-left: calc(var(--bs-gutter-x) * -.5);
+    }
+
+    .card-title{
+font-weight: bold;
+    }
+    /* .card-img-top:hover{
+        transform: scale(1.5);
+        transition-duration: 0.5s;
+    } */
+    .card{
+        box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.2), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+    }
+    .card-body{
+        background-color: rgba(226, 247, 247, 0.51);
+    }
+.w-90{
+  width: 90%;
+}
+    .section1{
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+    .btnP2{
+        color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+ 
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: rgb(17, 143, 0) !important;
+  border-color: rgb(0, 0, 0);
+  width: 90px;
+  border-width: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition-duration: 0.4s;
+        margin-left: 10px;
+    }
+    .btnP2:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+       
+       
+      }
+      .h1P2{
+        font-family: 'Anek Malayalam', sans-serif;
+      font-weight: 200;
+        text-align: center;
+        font-size: 120px;
+        color: rgb(0, 0, 0);
+
+      }
+      .h1P3{
+        font-family: 'Anek Malayalam', sans-serif;
+      font-weight: 200;
+        text-align: center;
+        font-size: 100px;
+        color: rgb(0, 0, 0);
+
+      }
+    .btn-cyan{
+        background-color: black;
+color: white;
+font-size: 20px;
+font-weight: 600;
+    }
+    .btn-cyan:hover{
+        background-color: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+    }
+      .containerBUT{
+        margin-bottom: 100px;
+        margin-top: 50px;
+      }
+
+      .pg{
+        margin-top: 100px;
+        font-family: 'Anek Malayalam', sans-serif;
+        font-weight: 800;
+          text-align: center;
+          font-size: 30px;
+          color: rgb(0, 0, 0);
+      }
+
+      @media only screen and (max-width: 600px ) {
+#B{
+display: none;
+}
+
+      }
+        
+      @media only screen and (min-width: 601px ) {
+        .dropD{
+        display: none;
+        }
+        
+              }
+
+              .btnAmerica{
+              
+
+                  font-size: 13px !important;
+                  padding: 13px !important;
+                  width: 110px !important;
+              
+              
+              }
+      /* footer */
+      .btnI .btnL .btnF .btnG{
+        padding: 20px;
+        font-size: 60px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 60%;
+        
+      }
+      .btnI{
+        background-color: bisque;
+      }
+      .btnL{
+        background-color: rgb(218, 151, 224);
+      }
+      .btnF{
+        background-color: rgb(81, 145, 240);
+      }
+      .btnG{
+        background-color: rgb(248, 119, 114);
+      }
+      .h5-footer{
+        font-size:30px ;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(247, 244, 244);
+      text-decoration: none;
+      }
+      
+      .h5-footer:hover{
+        color: azure;
+      }
+      .number{
+        font-size:20px ;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(247, 244, 244);
+      text-decoration: none;
+      }
+      
+      .number:hover{
+        color: azure;
+      }
+      
+      .bi-google ,.bi-facebook, .bi-instagram ,.bi-linkedin{
+        width: 30px;
+        height: 30px;
+        fill: black;
+      }
+   
+      
+    
+     
+    
+      .btnI:hover{
+        background-color: rgb(141, 141, 141);
+      }
+      .btnL:hover{
+        background-color: rgb(141, 141, 141);
+      }
+      .btnF:hover{
+        background-color: rgb(141, 141, 141);
+      }
+      .btnG:hover{
+        background-color: rgb(141, 141, 141);
+      }
+      @media only screen and (max-width: 600px ) {
+      .number{
+        font-size:15px ;
+      }
+      }
+
+      #nameError {
+        display: none;
+        font-size: 0.8em;
+      }
+      
+      #nameError.visible {
+        display: block;
+      }
+      
+      input.invalid {
+        border-color: red;
+      }
+      
+      .alert{
+        background-color: rgb(3, 153, 3);
+        color: white;
+        width: 540px;
+        margin-right: 538px;
+      }
+       .hide{
+        display: none;
+      } 
+      
+      /* about us */
+      .img-fluid{
+        width: 160px;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 70px;
+        margin-bottom: 50px;
+       
+        
+          
+      
+      }
+      .img-fluid:hover{
+       
+          transform: scale(1.5);
+          transition-duration: 0.5s;
+         
+      }
+      .section-form{
+      background-color: #effbff;
+      box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.2), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+     
+        padding-top: 80px;
+        padding-bottom: 140px;
+      
+      }
+      .w-70{
+        width: 70%;
+      }
+      .parag{
+        margin-bottom: 100px;
+        font-family: "Rubik";
+        font-size: 20px;
+      }
+      .text-h1{
+        margin-bottom: 10px;
+        font-family: "Rubik";
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+      }
+      @media only screen and (max-width: 600px ) {
+      
+        .img-fluid{
+          margin-left: 190px;
+          width: 140px;
+        }
+        .parag {
+          margin-bottom: 30px;
+          font-family: "Rubik";
+          font-size: 20px;
+        }
+      
+        }
+      .aboutus{
+        margin-top: 200px;
+      }
+
+      .about-img{
+        margin-top: 35px;
+      }
+      .card-img-top {
+        width: 100%;
+        height: 41vw;
+        object-fit: cover;
+      }
+      .contact {
+
+        background-color: #d8eef7;
+    
+    }
+   .contact-padding {
+
+      padding-left: 570px;
+  
+  }
+.button-padding {
+
+    padding-right: 390px;
+
+}
+.button-width{
+  width: 730px;
+}
+@media only screen and (max-width: 600px ) {
+  .button-width{
+    width: 375px;
+  }
+  .h1P3{
+    font-size: 80px;
+  }
+  .alert{
+   
+
+    width: 377px;
+    margin-right: 538px;
+  }
+
+}
+
+@media only screen and (min-width: 601px ) {
+  .card-img-top {
+ 
+    height: 15vw !important;
+ 
+  }
+
+
+}
