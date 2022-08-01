@@ -1,4 +1,4 @@
-# FrontEndJs
+# Front-End-Js
 THE PROJECT IS RESPONSIVE FOR 1160PX AND 600PX WIDTH ONLY.
 Front-end project  with html, css, js, bootstrap and jQuery
 The project is based on 4 diferent html pages, using bootstrap 
